@@ -1,0 +1,158 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+
+.text-warning {
+    color: rgb(71, 4, 54) !important;
+}
+
+h2 {
+    color: #920f99 !important;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: border;
+}
+
+p {
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #3d0426
+}
+
+p:hover {
+    color: #ccb2ce
+}
+
+ a {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(226, 188, 226);
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 191, 223);
+}
+
+header {
+    background-color: #920f99;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(33, 2, 63);
+    padding: 15px;
+}
+
+header {
+    flex-wrap: wrap;
+}
+
+header nav ul {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 5px;
+}
+
+header nav ul li a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(226, 217, 235);
+    transition: 2s;
+}
+
+header img {
+    width: 15%;
+    margin-left: 0%;
+}
+
+nav ul li a:hover {
+    color: rgb(167, 62, 79);
+    cursor: pointer;
+    margin: 15px
+}
+
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: larger;
+    display: inline;
+}
+
+.card {
+    margin-top: 5%;
+    margin-left: 1%;
+    align-items: center;
+}
+
+
+.footer{
+    background-color: #920f99;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(33, 2, 63);
+    padding: 15px;
+}
+/*
+.footer {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 15px 0;
+    justify-content: space-around;
+
+}
+*/
+
+.footer {
+    border-top: 3px solid rgb(38, 4, 66);
+
+}
+
+.logo-footer {
+    width: 40%;
+    margin: 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+    color: #ccb2ce;
+}
+
+.botton {
+    text-align: right;
+    align-items: right;
+    background-color: rgb(215, 196, 233);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 1px solid rgb(38, 4, 66);
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.contacto {
+    text-align: center;
+}
+
+.horario-atencion {
+    text-align: center;
+}
+
+.newsletter {
+text-align: center;
+}
