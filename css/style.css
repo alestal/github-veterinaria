@@ -4,6 +4,16 @@
     list-style-type: none;
 }
 
+.carousel-item{
+    width: 99%
+    }
+    .carousel-item{
+        margin-top: 25px;
+        margin-bottom: 25pxx;
+    }
+.carousel-item{
+    padding 25px;
+}
 .text-warning {
     color: rgb(71, 4, 54) !important;
 }
