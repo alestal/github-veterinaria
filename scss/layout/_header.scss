@@ -1,0 +1,32 @@
+/*Estilos de header*/
+header {
+    background-color: #920f99;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(33, 2, 63);
+    flex-wrap: wrap;
+    padding: 15px;
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                font-weight: bolder;
+                color: rgb(56, 1, 56);
+            }
+            nav{
+                ul{
+                    align-items: center;
+                    list-style-type: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                    li{
+                        margin: 5px;
+                    }
+                        a{
+                            font-weight: bolder;
+                             text-decoration: none;
+                            color: rgb(226, 217, 235);
+                            transition: 2s;
+                        }
+            }
+}
