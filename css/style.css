@@ -420,7 +420,7 @@ font-weight: bolder;
 }
 
 /*NOSOTROS*/
-.card {
+.card-nosotros {
     background-color: #ccb2ce;
     display: flex;
     flex-wrap: wrap;
