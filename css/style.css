@@ -103,12 +103,16 @@ p {
     display: inline;
 }
 
-.card.text{
+
+
+/*nosotros*/
+
+.card.text-nosotros{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(39, 3, 39);
     font-size: larger;
     display: inline;
-    
+  
 }
 .card-title-nosotros{
     font-family: Arial, Helvetica, sans-serif;
@@ -117,14 +121,17 @@ p {
     font-size: larger;
      }
 
-.card {
+.card-nosotros {
+    display: flex;
+    flex-wrap: flex;
     background-color: #e6d5e7;
     margin-top: 5%;
     margin-left: 1%;
     align-items: center;
+    max-width: 100%;
 }
 
-
+/*inicio footer*/
 .footer{
     background-color: #920f99;
     display: flex;
@@ -158,11 +165,7 @@ p {
     flex-wrap: wrap;
 }
 
-.container {
-    /*justify-content: space-between;*/
-    justify-content: space-around;
-    color: #ccb2ce;
-}
+
 
 .botton {
     text-align: right;
@@ -222,4 +225,91 @@ p {
     font-weight: bolder;
     color:rgb(39, 3, 39);
     text-align: start;
+}
+
+/*
+
+.card{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   width: 90%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.card-header{
+    height: 200px;
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+.card-body{
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    padding: 20px 15px;
+    text-align: justify;
+    border: 1px solid #ccc;
+}
+.btn{
+    display: block;
+    background-color: violet;
+    padding: 5px;
+    text-decoration: none;
+    color:#d18383;
+    text-align: center;
+    margin-top: 10px;
+    }
+   
+    .card-title{
+        text-align: center;
+        margin: 0;
+    }
+        */
+
+        
+.container {
+    justify-content: space-evenly;
+    color: #ccb2ce;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card{
+     width: 18rem;
+     align-items: center;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     
+
+}
+.card-title{
+    display: flex;
+    color: #3d0426;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bolder;
+}
+.card-text{
+    display: flex;
+    color: #3d0426;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bolder;
+    justify-content: center;
+
+}
+
+.btn{
+display: flex;
+flex-wrap: wrap;
+background-color: #e6d5e7;
+color: #3d0426;
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+text-align: center;
+font-weight: bolder;
 }
