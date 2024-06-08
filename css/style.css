@@ -105,31 +105,6 @@ p {
 
 
 
-/*nosotros*/
-
-.card.text-nosotros{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(39, 3, 39);
-    font-size: larger;
-    display: inline;
-  
-}
-.card-title-nosotros{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(39, 3, 39);
-    text-decoration: bolder;
-    font-size: larger;
-     }
-
-.card-nosotros {
-    display: flex;
-    flex-wrap: flex;
-    background-color: #e6d5e7;
-    margin-top: 5%;
-    margin-left: 1%;
-    align-items: center;
-    max-width: 100%;
-}
 
 /*inicio footer*/
 .footer{
@@ -267,6 +242,59 @@ p {
     }
         */
 
+
+/*INICIO* nosotros*/
+/*.imagen-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: 5px;
+   padding: 5px;
+   margin-top: 2rem;
+}
+
+.card-nosotros {
+   display: flex;
+    flex-wrap: flex;
+    background-color: #e6d5e7;
+    margin-top: 5%;
+    margin-left: 1%;
+    align-items: center;
+    max-width: 100%;
+  align-items: center;
+  
+   }
+
+.card.text-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 3, 39);
+    font-size: larger;
+    display: inline;
+  
+}
+.card-title-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 3, 39);
+    text-decoration: bolder;
+    font-size: larger;
+     }
+
+*/
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+       margin-top: 5%;
+    margin-left: 1%;
+    align-items: center;
+}
+
+/*alimentos-famracia-petshop*/
         
 .container {
     justify-content: space-evenly;
@@ -377,6 +405,62 @@ font-weight: bolder;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 5%;
-
 }
 
+
+/*carousel*/
+
+.carousel{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7px;
+    padding: 3px;
+    border-radius:15px;
+}
+
+/*NOSOTROS*/
+.card {
+    background-color: #ccb2ce;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: space-evenly;
+    width:98%; /* Ajusta el ancho máximo según tus necesidades */
+  }
+  
+  .card img {
+    max-width:45%;/* Ancho máximo de la imagen */
+    height: auto;
+    margin-left: 2px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .titulo-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    color: #c00776;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align:justify;
+    font-weight: bolder;
+  }
+  
+  .texto-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    color: #3d0426;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align:justify;
+    font-weight: bold;
+    justify-content: center;
+
+  }
+  
+  
