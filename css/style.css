@@ -370,20 +370,33 @@ font-weight: bolder;
 /*servicios*/
 
 .container-servicios{
-    width: 85rem;
-    justify-content: space-between;
+   /* display: flex;
+    flex-wrap: wrap;
+    width: 33rem;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: rgb(226, 199, 219);
+    color: #ccb2ce;
+    margin: 0 auto;
+    padding: 5%;
+    border-radius: 9px;*/
+    justify-content: space-evenly;
     color: #ccb2ce;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 5%;
-    border-radius: 9px;
   }
 
   .card-body-servicios{
+   /* display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
-    align-items: center;
+    align-items: center;*/
+
+    width: 16rem;
+     align-items: center;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
 
   }
 .card-servicios{
