@@ -1,0 +1,504 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+/*
+.carousel-item{
+    width: 99%
+    }
+    .carousel-item{
+        margin-top: 25px;
+        margin-bottom: 25pxx;
+    }
+.carousel-item{
+    padding 25px;
+}
+*/
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color:rgb(56, 1, 56);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color:rgb(3, 0, 3)
+}
+
+p {
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #3d0426
+}
+
+p:hover {
+    color: #f00bca
+}
+
+ a {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(44, 1, 44);
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 178, 202);
+}
+
+header {
+ /* background-color: #920f99;*/
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(33, 2, 63);
+    padding: 15px;
+    background: rgb(182,37,230);
+    background: linear-gradient(90deg, rgba(182,37,230,1) 0%, rgba(228,14,166,1) 100%, rgba(223,2,159,1) 100%);
+}
+
+header {
+    flex-wrap: wrap;
+   
+}
+
+header nav ul {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 5px;
+}
+
+header nav ul li a {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(19, 1, 19);
+    transition: 3s;
+}
+
+header img {
+    width: 15%;
+    margin-left: 0%;
+}
+
+nav ul li a:hover {
+    color: rgb(206, 187, 201);
+    cursor: pointer;
+    margin: 15px
+    }
+
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 3, 39);
+    font-size: larger;
+    display: inline;
+}
+
+
+
+
+/*inicio footer*/
+.footer{
+    /*background-color: #920f99;*/
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(33, 2, 63);
+    padding: 15px;
+    background: rgb(182,37,230);
+    background: linear-gradient(90deg, rgba(182,37,230,1) 0%, rgba(228,14,166,1) 100%, rgba(223,2,159,1) 100%);
+}
+
+.footer {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 15px 0;
+    justify-content: space-around;
+
+}
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 3px solid rgb(38, 4, 66);
+    }
+
+.logo-footer {
+    width: 40%;
+    margin: 0;
+   
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.botton {
+text-align: right;
+align-items: right;
+background: rgb(167,170,186);
+background: radial-gradient(circle, rgba(167,170,186,1) 0%, rgba(252,70,107,1) 100%);
+border: #3d0426;
+border-radius: 11px;
+color: #660640;
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+text-align: center;
+font-weight: bolder;
+}
+
+/*.botton {
+    text-align: right;
+    align-items: right;
+    background-color: rgb(215, 196, 233);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(71, 6, 71);
+    border: 1px solid rgb(108, 21, 179);
+    margin-top: 15px;
+    margin-right: 25px;
+} */
+
+
+.titulo-contacto{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+    color:rgb(39, 3, 39);
+    text-align: center;
+}   
+
+.contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    color:rgb(31, 1, 31);
+    text-align: start;
+}
+
+.titulo-horario-atencion{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+    color:rgb(39, 3, 39);
+    text-align: center;
+}
+
+.horario-atencion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    color:rgb(31, 1, 31);
+    text-align: start;
+}
+
+.texto-newsletter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color:rgb(31, 1, 31);
+    text-align: start;
+}
+
+.newsletter-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color:rgb(39, 3, 39);
+    text-align: start;
+}
+
+/*
+
+.card{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   width: 90%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.card-header{
+    height: 200px;
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+.card-body{
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    padding: 20px 15px;
+    text-align: justify;
+    border: 1px solid #ccc;
+}
+.btn{
+    display: block;
+    background-color: violet;
+    padding: 5px;
+    text-decoration: none;
+    color:#d18383;
+    text-align: center;
+    margin-top: 10px;
+    }
+   
+    .card-title{
+        text-align: center;
+        margin: 0;
+    }
+        */
+
+
+/*INICIO* nosotros*/
+/*.imagen-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: 5px;
+   padding: 5px;
+   margin-top: 2rem;
+}
+
+.card-nosotros {
+   display: flex;
+    flex-wrap: flex;
+    background-color: #e6d5e7;
+    margin-top: 5%;
+    margin-left: 1%;
+    align-items: center;
+    max-width: 100%;
+  align-items: center;
+  
+   }
+
+.card.text-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 3, 39);
+    font-size: larger;
+    display: inline;
+  
+}
+.card-title-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 3, 39);
+    text-decoration: bolder;
+    font-size: larger;
+     }
+
+*/
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+       margin-top: 5%;
+    margin-left: 1%;
+    align-items: center;
+}
+
+/*alimentos-famracia-petshop*/
+        
+.container {
+    justify-content: space-evenly;
+    color: #ccb2ce;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card{
+     width: 16rem;
+     align-items: center;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+}
+
+.card-title{
+    display: flex;
+    color: #3d0426;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bolder;
+    }
+.card-text{
+    display: flex;
+    color: #3d0426;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bolder;
+    justify-content: center;
+
+}
+
+.btn{
+display: flex;
+flex-wrap: wrap;
+background-color: #e6d5e7;
+color: #3d0426;
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+text-align: center;
+font-weight: bolder;
+}
+
+
+
+
+/*servicios*/
+
+.container-servicios{
+   /* display: flex;
+    flex-wrap: wrap;
+    width: 33rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(226, 199, 219);
+    color: #ccb2ce;
+    margin: 0 auto;
+    padding: 5%;
+    border-radius: 9px;*/
+    justify-content: space-evenly;
+    color: #ccb2ce;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .card-body-servicios{
+   /* display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;*/
+
+    width: 16rem;
+     align-items: center;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+
+  }
+.card-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    width: 36rem;
+     align-items: center;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+
+}
+.card-title-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    color: #ce1d87;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align:justify;
+    font-weight: bolder;
+    margin-top: 5px;
+    }
+
+
+.card-text-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    color: #3d0426;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align:justify;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.card-servicios-peluqueria{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 5%;
+}
+
+
+/*carousel*/
+
+.carousel{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7px;
+    padding: 3px;
+    border-radius:15px;
+}
+
+/*NOSOTROS*/
+.card-nosotros {
+    background-color: #ccb2ce;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: space-evenly;
+    width:98%; /* Ajusta el ancho máximo según tus necesidades */
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .card img {
+    max-width:45%;/* Ancho máximo de la imagen */
+    height: auto;
+    margin-left: 2px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .titulo-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    color: #c00776;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align:justify;
+    font-weight: bolder;
+  }
+  
+  .texto-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    color: #3d0426;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align:justify;
+    font-weight: bold;
+    justify-content: center;
+
+  }
+  
+  
