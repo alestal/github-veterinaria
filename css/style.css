@@ -58,8 +58,8 @@ header {
     justify-content: space-between;
     border-bottom: 3px solid rgb(33, 2, 63);
     padding: 15px;
-   background: rgb(205, 169, 218);
-background: linear-gradient(90deg, rgba(182,37,230,1) 0%, rgba(204,58,162,1) 37%);
+    background: rgb(182,37,230);
+    background: linear-gradient(90deg, rgba(182,37,230,1) 0%, rgba(228,14,166,1) 100%, rgba(223,2,159,1) 100%);
 }
 
 header {
@@ -117,8 +117,8 @@ p {
     justify-content: space-between;
     border-bottom: 3px solid rgb(33, 2, 63);
     padding: 15px;
-    background: rgb(205, 169, 218);
-    background: linear-gradient(90deg, rgba(182,37,230,1) 0%, rgba(204,58,162,1) 37%);
+    background: rgb(182,37,230);
+    background: linear-gradient(90deg, rgba(182,37,230,1) 0%, rgba(228,14,166,1) 100%, rgba(223,2,159,1) 100%);
 }
 
 .footer {
@@ -147,18 +147,32 @@ p {
 }
 
 
-
 .botton {
+text-align: right;
+align-items: right;
+background: rgb(167,170,186);
+background: radial-gradient(circle, rgba(167,170,186,1) 0%, rgba(252,70,107,1) 100%);
+border: #3d0426;
+border-radius: 11px;
+color: #660640;
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+text-align: center;
+font-weight: bolder;
+}
+
+/*.botton {
     text-align: right;
     align-items: right;
     background-color: rgb(215, 196, 233);
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(71, 6, 71);
-    border: 1px solid rgb(38, 4, 66);
+    border: 1px solid rgb(108, 21, 179);
     margin-top: 15px;
     margin-right: 25px;
-}
+} */
+
 
 .titulo-contacto{
     font-family: Arial, Helvetica, sans-serif;
@@ -166,13 +180,14 @@ p {
     font-size: larger;
     font-weight: bold;
     color:rgb(39, 3, 39);
-    text-align: center;    
-}
+    text-align: center;
+}   
+
 .contacto {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-weight: bolder;
-    color:rgb(71, 6, 71);
+    color:rgb(31, 1, 31);
     text-align: start;
 }
 
@@ -189,7 +204,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-weight: bolder;
-    color:rgb(71, 6, 71);
+    color:rgb(31, 1, 31);
     text-align: start;
 }
 
@@ -197,7 +212,8 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-weight: bolder;
-    color:rgb(71, 6, 71);
+    color:rgb(31, 1, 31);
+    text-align: start;
 }
 
 .newsletter-titulo {
@@ -435,6 +451,9 @@ font-weight: bolder;
     overflow: hidden;
     justify-content: space-evenly;
     width:98%; /* Ajusta el ancho máximo según tus necesidades */
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
   
   .card img {
