@@ -17,7 +17,7 @@
 */
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bolder;
     color:rgb(56, 1, 56);
 }
@@ -177,8 +177,7 @@ font-weight: bolder;
 
 .titulo-contacto{
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: double;
-text-decoration: underline;
+    text-decoration: underline;
     font-size: large;
     font-weight: bold;
     color:rgb(39, 3, 39);
