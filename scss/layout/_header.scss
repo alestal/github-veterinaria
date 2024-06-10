@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(33, 2, 63);
+    padding: 15px;
+    background: rgb(182,37,230);
+    background: linear-gradient(90deg, rgba(182,37,230,1) 0%, rgba(228,14,166,1) 100%, rgba(223,2,159,1) 100%);
+            
+            img{
+            width: 15%;
+            margin-left: 0%;
+            transition: 2seg;
+            &:hover{
+                transform: translate(45px,10px);
+            }
+                }
+                  
+               nav{
+                     ul{
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: center;
+                            list-style-type: none;
+                        
+                          li{
+                            margin: 5px;
+                                                     
+                            
+                              
+                                  a{
+                                            font-size: medium;
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-weight: bolder;
+                                            text-decoration: none;
+                                            color: rgb(19, 1, 19);
+                                            &:hover{
+                                            font-size: larger;
+                                            color: rgb(238, 208, 208);
+                                            cursor: pointer;
+                                            margin: 15px
+                                            }
+                                            transition: 3s;
+                                        }
+                                    }                
+                          }    
+          
+                          }     
+              h1{
+                 font-family: Arial, Helvetica, sans-serif;
+                 font-size: x-large;
+                 font-weight: bolder;
+                 color:rgb(56, 1, 56);
+                 &:hover{
+                    transform: translateY(60%);
+                }
+                 }
+                    
+                              
+         }             

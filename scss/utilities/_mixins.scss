@@ -1,0 +1,15 @@
+@mixin logo-header{
+        width: 15%;
+        margin-left: 0%;
+        transition: 2seg;
+        &:hover{
+            transform: translate(45px,10px);
+        }
+
+
+         
+}
+
+.logo-footer{
+    @include logo-header
+}
