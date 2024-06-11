@@ -1,66 +1,84 @@
 $color-titulos: #d60d86;
-$color-texto:#3d0426;
+$color-texto: #3d0426;
 $fuente-arial: Arial, Helvetica, sans-serif;
 
 .container {
-    justify-content: space-evenly;
-    color: #ccb2ce;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-     
+   justify-content: space-evenly;
+   color: #ccb2ce;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
 
-    .card{
-        width: 16rem;
-         align-items: center;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        box-shadow: 0 0 10px rgba(238, 3, 226, 0.849);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-          &:hover{
-            transform: scale(1.1);
-            box-shadow: 0 0 20px rgba(238, 3, 226, 0.849);
-                }
-   
-        
-    }
 
-   .card-body{
+   .card {
+      display: flex;
+      flex-wrap: wrap;
+      width: 15rem;
+      justify-content: space-between;
+      align-items: center;
       margin-top: 2rem;
-     margin-bottom: 2rem;
-     padding: 1rem;
-    border-radius: 9px;
-     
-              .card-title{
-                            display: flex;
-                            color: $color-titulos;
-                            font-family: $fuente-arial;
-                            font-size: medium;
-                            text-align: center;
-                            font-weight: bolder;
-                         }
-             .card-text{
-                            display: flex;
-                            color: $color-texto;
-                            font-family: $fuente-arial;
-                            font-size: medium;
-                            text-align: center;
-                            font-weight: bolder;
-                            justify-content: center;
-                        
-                        }
-             .btn{
-                            display: flex;
-                            flex-wrap: wrap;
-                            background-color: #e6d5e7;
-                            color: $color-titulos;
-                            font-family:$fuente-arial;
-                            font-size: medium;
-                            text-align: center;
-                            font-weight: bolder;
-                            /*
-                            padding: 0.5rem;
-                            margin: 1rem; */
-               } 
+      margin-bottom: 2rem;
+      box-shadow: 0 0 10px rgba(238, 3, 226, 0.849);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+         transform: scale(1.1);
+         box-shadow: 0 0 20px rgba(51, 2, 49, 0.849);
+      }
+
+      align-items: center;
+
+      .card-img-topimg {
+         width: 7rem
+      }
+
+
+      .card-body {
+         width: 16rem;
+         align-items: center;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
+
+         .card-title {
+            display: flex;
+            color: $color-titulos;
+            font-family: $fuente-arial;
+            font-size: medium;
+            text-align: center;
+            font-weight: bolder;
+         }
+
+         .card-text {
+            display: flex;
+            color: $color-texto;
+            font-family: $fuente-arial;
+            font-size: medium;
+            text-align: center;
+            font-weight: bolder;
+            justify-content: center;
+
+         }
+
+         .btn {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #e6d5e7;
+            color: $color-titulos;
+            font-family: $fuente-arial;
+            font-size: medium;
+            text-align: center;
+            font-weight: bolder;
+            /*
+                     padding: 0.5rem;
+                     margin: 1rem; */
+         }
+
+
+
+
+
+      }
+
+
    }
 }

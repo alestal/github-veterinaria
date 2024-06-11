@@ -169,8 +169,7 @@ header h1:hover {
 }
 .container .card {
   width: 16rem;
-  align-items: center;
-  margin-top: 2rem;
+  align-items: center margin-top 2rem;
   margin-bottom: 2rem;
   box-shadow: 0 0 10px rgba(238, 3, 226, 0.849);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -392,7 +391,7 @@ header h1:hover {
   transition: 2seg;
 }
 .logo-footer:hover {
-  transform: translate(45px, 10px) rotate(-25deg, 25deg);
+  transform: translate(45px, 10px);
 }
 
 /*# sourceMappingURL=style.css.map */
