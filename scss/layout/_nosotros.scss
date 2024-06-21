@@ -10,16 +10,19 @@
   padding: 25px;
   margin: auto;
 
-
-      .card img {
+      .card.img  {
+       
+        display: flex;
+        flex-wrap: wrap;
         max-width: 35%;
-        margin-left: px;
+        margin-left: 1px;
         padding: 5px;
         margin-top: 2rem;
       }
 
 
         .content {
+          object-fit: cover;
           padding: 20px;
 
         .titulo-nosotros {

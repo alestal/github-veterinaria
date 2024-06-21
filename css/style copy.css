@@ -470,8 +470,8 @@ font-weight: bolder;
   }
   
   .card img {
-    max-width:45%;/* Ancho máximo de la imagen */
-    height: auto;
+    max: width 350px;
+    height: 250px;
     margin-left: 2px;
   }
   
