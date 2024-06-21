@@ -14,7 +14,7 @@ $fuente-arial: Arial, Helvetica, sans-serif;
      display: flex;
       flex-wrap: wrap;
       width: 15rem;
-      justify-content: space-between;
+     justify-content: space-between;
       align-items: center;
       margin-top: 2rem;
       margin-bottom: 2rem;
@@ -28,9 +28,12 @@ $fuente-arial: Arial, Helvetica, sans-serif;
 
       align-items: center;
 
-      .card-img-topimg {
-         width: 7rem
-      }
+      .card-img-top {
+         display: flex;
+         flex-wrap: wrap;
+         max-width: 100%;
+         height: auto;
+         }
 
 
       .card-body {
@@ -60,7 +63,7 @@ $fuente-arial: Arial, Helvetica, sans-serif;
          }
 
          .btn {
-            display: flex;
+            display:flex;
             flex-wrap: wrap;
             background-color: #e6d5e7;
             color: $color-titulos;

@@ -19,6 +19,14 @@ $fuente-arial: Arial, Helvetica, sans-serif;
         margin-top: 2rem;
         margin-bottom: 2rem;
 
+        .card.img-top{
+         display: flex;
+         flex-wrap: wrap;
+         max-width: 100%;
+         height: auto;
+
+        }
+
 
         .card-title-servicios {
             display: flex;

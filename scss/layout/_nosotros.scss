@@ -11,10 +11,10 @@
   margin: auto;
 
       .card.img  {
-       
         display: flex;
         flex-wrap: wrap;
-        max-width: 35%;
+        max-width: 100%;
+        height: auto;
         margin-left: 1px;
         padding: 5px;
         margin-top: 2rem;
