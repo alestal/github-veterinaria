@@ -189,8 +189,9 @@ font-weight: bolder;
     font-size: medium;
     font-weight: bolder;
     color:rgb(31, 1, 31);
-    text-align: start;
+    text-align: start; 
 }
+
 
 .titulo-horario-atencion{
     font-family: Arial, Helvetica, sans-serif;
@@ -470,7 +471,7 @@ font-weight: bolder;
   }
   
   .card img {
-    max: width 350px;
+    max-width:45%;
     height: 250px;
     margin-left: 2px;
   }

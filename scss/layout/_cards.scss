@@ -7,14 +7,17 @@ $fuente-arial: Arial, Helvetica, sans-serif;
    color: #ccb2ce;
    display: flex;
    flex-wrap: wrap;
+   flex-grow: 1;
    margin: 0 auto;
-
+   overflow: hidden;
+  
+ 
 
    .card {
-     display: flex;
+      display: flex;
       flex-wrap: wrap;
-      width: 15rem;
-     justify-content: space-between;
+      width: 25%;
+      justify-content: space-between;
       align-items: center;
       margin-top: 2rem;
       margin-bottom: 2rem;
@@ -71,7 +74,7 @@ $fuente-arial: Arial, Helvetica, sans-serif;
             font-size: medium;
             text-align: center;
             font-weight: bolder;
-         }
+          }
 
 
 
@@ -82,3 +85,4 @@ $fuente-arial: Arial, Helvetica, sans-serif;
 
    }
 }
+
